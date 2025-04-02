@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fatura Oluşturucu</title>
+</head>
+<body>
+  <h2>CSV Dosyanı Yükle</h2>
+  <form action="/generate" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".csv" required>
+    <button type="submit">Fatura Oluştur</button>
+  </form>
+</body>
+</html>
